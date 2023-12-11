@@ -1,0 +1,40 @@
+<ion-header class="ion-no-border isLoggedIn" >
+  <ion-item  lines="none">
+    <img src="assets/icon/logo.png">
+    <ion-label id="logo-text">FarmX</ion-label>
+   </ion-item> 
+   
+</ion-header>
+
+
+<ion-content class="dashboard" >
+  <ion-list >
+    <h4>My Profile</h4>
+    <ion-item lines="none"><ion-label>Name:</ion-label>Akshithe</ion-item>     
+    <ion-item lines="none"><ion-label>Email:</ion-label><span>Akshithe</span></ion-item>  
+    <ion-item lines="none"><ion-label>Mobile:</ion-label><span>998976543</span></ion-item>
+    <ion-item lines="none"><ion-label>SubScription:</ion-label><span>Free</span></ion-item>
+   <ion-item lines="none">
+    <ion-label>Modules</ion-label><span> <ion-item lines="none">
+      <ion-checkbox slot="start" ></ion-checkbox>
+      <ion-label>Farmer</ion-label>
+    </ion-item >
+      <ion-item lines="none">
+        <ion-checkbox slot="start" [(ngModel)]="isChecked" (ionChange)="toggleCheckbox($event)"></ion-checkbox>
+        <ion-label>Buyer</ion-label>
+      </ion-item >
+      <ion-item lines="none">
+        <ion-checkbox slot="start" ></ion-checkbox>
+        <ion-label>Transportation</ion-label>
+      </ion-item>
+    
+    </span>
+      
+   
+   </ion-item>
+
+
+    
+    
+  </ion-list>
+</ion-content>

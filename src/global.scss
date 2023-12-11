@@ -1,0 +1,162 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+
+
+
+
+
+.loginscreens ion-input{
+    border:1px solid #00ac47;
+   border-radius: 22px;
+   box-shadow: 0px 0px 6px 0px rgba(163, 243, 174, 0.75);
+
+ 
+ 
+}
+
+  
+
+.loginscreens .full-width {
+    width: auto;
+    --border-radius: 50px;
+    --padding-start: 25px;
+    --padding-end: 25px;
+}
+.formwrapper .full-width {
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid  #00ac47;
+    background-color:#00ac47 ;
+    padding:10px 25px;
+    color: white;
+    border-radius: 22px; 
+    width:100%; 
+    text-decoration: none
+    
+}
+.sm-text a{
+    color: #00ac47;
+    text-decoration: none
+   
+}
+input#ion-input-0,input#ion-input-1,input#ion-input-2,input#ion-input-3{
+    padding-left:55px !important;
+}
+.register div{
+    padding:10px;
+}
+.loginscreens ion-icon {
+    color:#00ac47;
+    padding: 10px;   
+    margin-right: 0px;
+    position: absolute;   
+    z-index: 999;
+    
+}
+
+.loginscreens .form-item {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    overflow: visible;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.formwrapper ion-item, .formwrapper ion-list, .formwrapper .list-md {
+    --background: transparent;
+    background: transparent;
+}
+.formwrapper ion-item {
+    // text-align: center;
+    --border-color: #fff;
+}
+.formwrapper ion-item img{
+    width:60% !important;
+    margin-right:auto;
+    margin-left:auto;
+}
+.isLoggedIn ion-item{
+    font-family: 'Ravie', cursive;
+    color: #00ac47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.isLoggedIn ion-label {
+    font-family: 'Ravie', cursive; 
+}
+.isLoggedIn img{
+    height:auto;
+    width:15%;
+
+}
+.dashboard ion-item{
+    padding: 5px;
+    // display:flex;
+    // justify-content: space-between;
+   
+
+}
+h4{
+    padding-left:20px;
+    font-weight:bold;
+}
+
+#logo-text{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Ravie', cursive;
+    font-size: 27px;
+    font-weight: bold;
+    color: black;
+}
+.dashboard ion-item img{
+    width:15%;
+    height:auto;
+}
+.dashboard a{
+   flex:1;
+   text-align: right;
+   text-decoration: none;
+}
+.product img{
+    margin-left:25%;
+}
+.loginscreens ion-icon {
+    color: #00ac47;
+    padding: 10px;
+    border: 1px solid #00ac47 ;
+    border-radius: 50%;
+    margin-right: 0px;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 999;
+    box-shadow: 0px 0px 6px 0px rgb(158 225 167 / 75%);
+}
+
+
+

@@ -1,0 +1,7 @@
+{
+  "name": "FarmX",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
