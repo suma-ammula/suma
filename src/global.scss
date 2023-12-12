@@ -28,26 +28,45 @@
 
 
 
-
+.checkbox-style {
+    display: flex;
+    margin-left: 21px;
+    margin-top: 15px;
+  }
+  
+  .checkbox-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  .label_style{
+    margin-left: 7px;
+  }
 
 .loginscreens ion-input{
     border:1px solid #00ac47;
    border-radius: 22px;
    box-shadow: 0px 0px 6px 0px rgba(163, 243, 174, 0.75);
-
- 
  
 }
+.sc-ion-input-ios-h:not(.legacy-input) {
+    min-height: 35px !important;
+}
 
-  
-
+ .logo_style{
+    max-width: 50%;
+    margin-left: 95px;
+ } 
+ .register{
+    margin-top: 15px;
+ }
 .loginscreens .full-width {
-    width: auto;
+    width: 120%;
     --border-radius: 50px;
     --padding-start: 25px;
     --padding-end: 25px;
 }
-.formwrapper .full-width {
+ .full-width {
     margin-left: auto;
     margin-right: auto;
     border:1px solid  #00ac47;
@@ -56,7 +75,8 @@
     color: white;
     border-radius: 22px; 
     width:100%; 
-    text-decoration: none
+    text-decoration: none;
+    margin-top: 25px;
     
 }
 .sm-text a{
@@ -76,7 +96,7 @@ input#ion-input-0,input#ion-input-1,input#ion-input-2,input#ion-input-3{
     margin-right: 0px;
     position: absolute;   
     z-index: 999;
-    
+    font-size: 15px;
 }
 
 .loginscreens .form-item {
@@ -157,6 +177,62 @@ h4{
     z-index: 999;
     box-shadow: 0px 0px 6px 0px rgb(158 225 167 / 75%);
 }
+.home_style{
+    margin-top: 100px;
+    margin-left: 37px;
+}
+.h_welcome{
+    font-weight: bold;
+}
+.h_farmx{
+    font-family: 'Ravie', cursive;
+    color: #00ac47;
+}
+.logo_FarmX{
+    width: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    height: auto;
+    position: relative;
+}
+.container {
+    display: flex;
+    align-items: center;
+  }
+.sign_in{
+    font-size: 18px;
+    margin-left: 25px;
+    color: #00ac47;
+    margin-top: 72px;
+}
 
 
+.arrow_img {
+    width: 250px;
+    height: auto; 
+}
+  
+  .background-image-container{
+    height:100vh;
+    --background: url('assets/icon/background_FX.png') no-repeat center center fixed;
+
+  }
+//   ion-content.background-image-container.md.content-ltr.hydrated{
+//     // --background: url('assets/icon/background_FX.png') no-repeat center center fixed;
+//     background-size: cover;
+//  }
+ .logo_FarmX::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300%;
+    height: 120%;
+    background-image: url('assets/icon/logobfimg.png');
+    background-size: 120% auto;
+    background-position: center;
+    z-index: -1; 
+    border-radius: inherit; 
+  }
 

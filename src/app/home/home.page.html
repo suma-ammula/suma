@@ -1,20 +1,13 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content class="background-image-container">
+  <div>
+    <h1 class="home_style">
+      <span class="h_welcome" >Welcome to </span>
+      <span class="h_farmx"  >FarmerX</span>
+    </h1> 
+   </div>
+    <ion-img src="assets/icon/logo_FarmX.png"  class="logo_FarmX"></ion-img>
+    <div class="container">
+<h1 class="sign_in">Sign in now!</h1>  
+    <span><ion-img src="assets/icon/arrow_img.png" [routerLink]="['/login']" class="arrow_img"></ion-img></span>
+       </div>
 </ion-content>
